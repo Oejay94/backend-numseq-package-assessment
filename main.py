@@ -16,8 +16,8 @@ def main():
     prime_list = prime(1000)
     for p in prime_list[-10:]:
         print(p)
-    print("Is 1994 prime? {}".format(is_prime(1994)))
-    print("Is 1999 prime? {}".format(is_prime(1999)))
+    print("Is 999981 prime? {}".format(is_prime(999981)))
+    print("Is 999983 prime? {}".format(is_prime(999983)))
 
 if __name__ == "__main__":
     main()
