@@ -1,8 +1,14 @@
+from numseq.prime import *
+from numseq.geo import *
+from numseq.fib import *
 _author_ = "Joey Brown w/ help from Matt"
 
-from numseq.fib import *
-from numseq.geo import *
-from numseq.prime import *
+
+"""
+Imports the three files within the numseq folder
+and tests them to make sure they return the
+desired results.
+"""
 
 
 def main():
@@ -18,6 +24,7 @@ def main():
         print(p)
     print("Is 999981 prime? {}".format(is_prime(999981)))
     print("Is 999983 prime? {}".format(is_prime(999983)))
+
 
 if __name__ == "__main__":
     main()
